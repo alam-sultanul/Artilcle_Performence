@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.articleperformance.PersistenceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.027 s <<< FAILURE! - in com.articleperformance.PersistenceTest
+test_article_Create(com.articleperformance.PersistenceTest)  Time elapsed: 0.769 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+	at com.articleperformance.PersistenceTest.test_article_Create(PersistenceTest.java:58)
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement
+	at com.articleperformance.PersistenceTest.test_article_Create(PersistenceTest.java:58)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'article_performance.articles' doesn't exist
+	at com.articleperformance.PersistenceTest.test_article_Create(PersistenceTest.java:58)
+

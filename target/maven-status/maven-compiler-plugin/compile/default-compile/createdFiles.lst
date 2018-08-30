@@ -1,0 +1,15 @@
+com\articleperformance\model\ArticlesWithoutComment_.class
+com\articleperformance\ServletInitializer.class
+com\articleperformance\model\ArticlesComments_.class
+com\articleperformance\model\Articles_.class
+com\articleperformance\ArticlePerformanceApplication.class
+com\articleperformance\controller\Article_Controller.class
+com\articleperformance\persistence\ArticlePerformance_Impl_Batch.class
+com\articleperformance\persistence\ArticlePerformance_Impl.class
+com\articleperformance\model\ArticlesOnly.class
+com\articleperformance\model\ArticlesComments.class
+com\articleperformance\model\ArticlesOnly_.class
+com\articleperformance\persistence\ArticlePerformane_I.class
+com\articleperformance\model\Articles.class
+com\articleperformance\model\ArticlesWithoutComment.class
+com\articleperformance\util\DatabaseConfig.class
